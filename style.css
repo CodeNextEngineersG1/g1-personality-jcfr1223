@@ -1,8 +1,59 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* Place your styles below */
+header {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+#form-submit, #try-again {
+  margin: 10px auto 10px auto;
+  width: 200px;
+  height: 50px;
+}
+
+#try-again {
+  display: none;
+}
+
+#quiz-wrapper {
+  display: flex;
+  flex: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 75%;
+}
+
+h2 {
+  flex-basis: 100%;
+  font-size: 2em;
+}
+
+input {
+  flex-basis: 50%;
+}
+
+#result {
+  display: none;
+  margin:0px auto 0px auto;
+  width: 250px;
+  height: 400px;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
